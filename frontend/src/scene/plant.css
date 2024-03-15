@@ -1,0 +1,14 @@
+
+
+.timePassed {
+  color: #8B4513;
+  z-index: 4;
+}
+.plantContainer {
+  transform: translate(-50%, -50%); 
+  text-align: center;
+}
+.flower{
+  max-height: 50vh;
+  z-index: 3;
+}

@@ -22,7 +22,7 @@ function PopUp() {
     const x = Math.floor(Math.random() * 100)
     console.log(`Name: ${name} UNIX-duration: ${duration} random-x: ${x}`)
     try {
-      const response = await axios.post('http://localhost:5000/activity', {name, duration, x});
+      const response = await axios.post('https://informatik-mern-stack-1.onrender.com/activity', {name, duration, x});
       console.log(response);
       navigate('/');
     } catch (error) {

@@ -31,7 +31,7 @@ function PlantModal(props) {
   }
   const handleSlet = async () => {
     try {
-      const response = await axios.delete(`http://localhost:5000/activity/${props.activity.id}`)
+      const response = await axios.delete(`https://informatik-mern-stack-1.onrender.com/activity/${props.activity.id}`)
       console.log(response);
       dispatch(deleteActivity(props.activity.id));
     } catch (error) {

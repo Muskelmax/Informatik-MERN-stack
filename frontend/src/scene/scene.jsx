@@ -39,7 +39,7 @@ function Scene() {
     }, 1000);
     const fetchData = async () => {
       try {
-        const response = await axios.get('http://localhost:5000/activity');
+        const response = await axios.get('https://informatik-mern-stack-1.onrender.com/activity');
         dispatch(getActivites(response.data));
         
       } catch (error) {

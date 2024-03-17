@@ -60,7 +60,7 @@ function Scene() {
       </div>
       <Link to="/ny" className="button">+</Link>
       {loading ? (
-        <h1>Hello</h1>
+        <h1>Loading</h1>
         
       ) : (
         <div>
